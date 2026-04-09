@@ -34,7 +34,7 @@ public class UserController {
             throw new UserException(UserErrorCode.USER_NOT_FOUND);
         }
         return CommonResponse.onSuccess(UserSuccessCode.USER_FOUND,
-                new UserResponse(id, "임준서", "junseo@example.com"));
+                new UserResponse(id, "이채영", "chaeyoung@example.com"));
     }
 
     @Operation(summary = "유저 생성", description = "새로운 유저를 생성해요.")
